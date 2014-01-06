@@ -17,6 +17,19 @@ div#principle div.block-menu-block {
 	padding:20px 30px;
 }
 
+body.front div.block {
+  clear:both;
+}
+* html body.front div.block {
+  height:1%;
+}
+body.front div.block:after {
+  content:'.';
+  display:block;
+  clear:both;
+  height:0;
+  visibility:hidden;
+}
 /* Banner */
 
 div#banner {
