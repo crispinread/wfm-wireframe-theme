@@ -56,3 +56,7 @@ div#header form {
   margin:0;
   padding:24px 3.0303% 0 3.0303%;  
 }
+div#header form div.views-exposed-widget {
+  padding:0;
+  float:left;
+}
