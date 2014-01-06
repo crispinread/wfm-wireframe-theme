@@ -17,20 +17,6 @@ div#principle div.block-menu-block {
 	padding:20px 30px;
 }
 
-body.front div.block {
-  clear:both;
-}
-* html body.front div.block {
-  height:1%;
-}
-body.front div.block:after {
-  content:'.';
-  display:block;
-  clear:both;
-  height:0;
-  visibility:hidden;
-}
-
 /* Banner */
 
 div#banner {
@@ -187,12 +173,18 @@ div#aside div.view-signposts div.views-row-last {
 div#trailer {
   border-top:2px solid #eee;
 }
+
+div#trailer div.block-search div.views-row,
+div#trailer div.block-views div.views-row {
+  float:left;
+  width:29.2929%;
+  margin:0 0 0 3.0303%;
+}
+
 div#trailer div.view-signposts {
   margin:3.0303% 0 0 0;
 }
-div#trailer div.block div.views-row,
 div#trailer div.view-signposts div.views-row {
-  margin:0;
   float:left;
   width:29.2929%;
   margin:0 0 0 3.0303%;
