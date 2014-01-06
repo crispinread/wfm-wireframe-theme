@@ -19,28 +19,38 @@ a#logo img {
 	border:1px solid #d4d4d4;
 }
 
-div#header div.block-menu-block {
+div#header div.block-menu-block,
+div#header nav {
   clear:right;
   float:right;
   margin:0;
   padding:24px 3.0303% 0 3.0303%;
 }
-div#header div.block-menu-block ul {
+div#header div.block-menu-block ul,
+div#header nav ul {
   margin:0;
   padding:0;
   line-height:20px;
   font-size:16px;
 }
-div#header div.block-menu-block ul li {
+div#header div.block-menu-block ul li,
+div#header nav ul li {
   float:left;
   margin:0 5px 0 0;
   padding:0;
   list-style:none;
 }
-div#header div.block-menu-block ul li.last {
+div#header div.block-menu-block ul li.last,
+div#header nav ul li.last {
   margin-right:0;
 }
-div#header div.block-menu-block ul li a {
+div#header div.block-menu-block ul li a,
+div#header nav ul li a {
   float:left;
   padding:5px;
+}
+
+div#header form {
+  clear:right;
+  float:right;  
 }
