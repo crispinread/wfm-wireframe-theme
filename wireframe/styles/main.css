@@ -171,11 +171,12 @@ div#aside div.view-signposts div.views-row-last {
 /* Trailer */
 
 div#trailer {
-	border-top:2px solid #eee;
+  border-top:2px solid #eee;
 }
 div#trailer div.view-signposts {
   margin:3.0303% 0 0 0;
 }
+div#trailer div.block div.views-row,
 div#trailer div.view-signposts div.views-row {
   margin:0;
   float:left;
