@@ -1,0 +1,290 @@
+/* Main
+--------*/
+
+div#main {
+  padding:3.0303% 0;
+}
+
+div#principle div.block,
+body.page-event div.page-container,
+body.page-civicrm-event div.crm-container {
+	margin:0 0 30px 0;
+	padding:30px;
+	background:#f4f4f4;
+	border: 1px solid #e4e4e4;
+}
+div#principle div.block-menu-block {
+	padding:20px 30px;
+}
+
+/* Banner */
+
+div#banner {
+  max-width:930px;
+  margin:0 auto;
+  padding:0 3.0303%;
+}
+div#banner div.menu-block-wrapper {
+  border-bottom:1px solid #ccc;
+  width:100%;
+	float:left;
+  padding:0 0 1% 0;
+}
+div#banner ul.menu {
+  clear:both;
+  margin:0;
+  padding:0;
+  list-style:none;
+  float: right;
+}
+div#banner ul.menu li {
+  float:left;
+  list-style:none;
+  margin:0 5px 0 0;
+  padding:0;
+}
+div#banner ul.menu li.last {
+  margin-right:0;
+}
+div#banner ul.menu li a {
+  border-radius:5px;
+  color:#52a5dd;
+  float:left;
+  padding:5px;
+}
+div#banner ul.menu li a:hover,
+div#banner ul.menu li a.active:hover {
+  color:#fff;
+  background:#2c88c2;
+}
+div#banner ul.menu li a.active {
+  color:#fff;
+  background:#52a5dd;
+}
+
+/* Menu */
+
+div#menu {
+  min-height:40px;
+}
+
+div#menu ul.menu {
+  clear:both;
+  margin:0;
+  padding:0;
+  list-style:none;
+  line-height:20px;
+  font-size:16px;
+}
+div#menu ul.menu li {
+  margin:0;
+  padding:0;
+  list-style:none;
+  border-top:1px solid #ccc;
+}
+div#menu ul.menu li.first {
+  padding-top:0;
+  border-top:0;
+}
+div#menu ul.menu li.last {
+  padding-bottom:0;
+}
+div#menu ul.menu li a {
+  display:block;
+  padding:10px 0;
+}
+div#menu ul.menu li.active-trail ul {
+  margin:0;
+	padding:0 0 5px 0;
+  line-height:18px;
+  font-size:14px;
+}
+div#menu ul.menu li.active-trail ul li {
+  padding:0;
+  border-top:0;
+}
+div#menu ul.menu li.active-trail ul li a {
+  padding:5px 0 5px 15px;
+}
+div#menu ul.menu li.active-trail ul li.active a {
+}
+div#menu ul.menu li.active-trail ul li.active-trail ul li a {
+  padding:5px 0 5px 30px;
+}
+div#menu ul.menu li.active-trail ul li.active-trail ul li.active a {
+}
+
+
+/* Content */
+
+div#content {
+  min-height:400px;
+}
+
+div.field {
+  margin:0.5em 0 1em 0;
+  line-height:1.4em;
+}
+
+div.comment {
+  margin:0 0 20px 0;
+}
+div.comment span.submitted {
+  display:block;
+  margin:0 0 5px 0;
+  padding:4px 10px;
+  text-align:right;
+  font-size:0.9em;
+  color:#888;
+  background:#eee;
+}
+div.comment h3 {
+  display:none;
+}
+
+ul.links {
+  margin-top:6px;
+  margin-bottom:6px;
+  line-height:18px;
+  font-size:14px;
+}
+
+
+/* Aside */
+
+div#aside {
+  min-height:40px;
+}
+
+div#aside div.view-signposts {
+  margin-bottom:0;
+  padding-bottom:0;
+}
+div#aside div.view-signposts div.views-row {
+  margin:0 0 20px 0;
+}
+div#aside div.view-signposts div.views-row-last {
+  margin-bottom:0;
+}
+
+
+/* Trailer */
+
+div#trailer {
+	border-top:2px solid #eee;
+}
+div#trailer div.view-signposts {
+  margin:3.0303% 0 0 0;
+}
+div#trailer div.view-signposts div.views-row {
+  margin:0;
+  float:left;
+  width:29.2929%;
+  margin:0 0 0 3.0303%;
+}
+
+/* Masonry Grid Layout */ 
+
+.masonry-item  {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	height: auto;
+	width: 33%;
+}
+
+.masonry-item:nth-child(3n-2) div {
+	padding-right: 9.6618%;
+}
+
+.masonry-item:nth-child(3n-1) div {
+	padding: 0% 4.8309%;
+}
+
+.masonry-item:nth-child(3n) div {
+	padding-left: 9.6618%;
+}
+
+.masonry-item .views-field-title {
+	margin-bottom: 15px;
+}
+
+.masonry-item .views-field-summary {
+	margin-top: 15px;
+}
+
+/* CiviCRM Profile Layout */
+
+.crm-container .crm-section .label {
+	float: none;
+	font-size: 10px;
+	text-align: left;
+	text-transform: uppercase;
+	width: auto;
+}
+
+.crm-container .crm-section .content {
+	margin-left: 0px;
+}
+
+span.user-page-link span.user-page-bullet {
+	display: none;
+}
+
+span.edit-details {
+	font-size: 10px;
+	line-height: 24px;	
+	vertical-align: middle	;
+	margin-left: 10px;
+}
+
+div#crm-container + span#user-page-profile-Nam {
+	display: none;
+}
+
+div#block-views-user_events-block {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	width: 47.8261%;
+}
+
+div#block-views-user_events-block div.views-row-2 {
+	border-top: 1px solid #cccccc;
+	padding-top: 2%;
+}
+
+div#principle div#block-views-user_contributions-block,
+div#principle div#block-views-user_subscriptions-block {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 4.34782%;
+	width: 47.8261%;
+}
+
+span.event-type {
+	margin-left: 5px;
+	font-size: 12px;
+	vertical-align: middle;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+/* CiviCRM Form Elements */
+
+#crm-container .crm-button {
+	background: #58a6df;
+	border: none;
+	border-radius: 0px;
+	padding: 4px;
+	text-shadow: none;	
+}
+
+.crm-container #help {
+	color: #738F16;
+	text-align: center;
+	margin-bottom: 0px;
+}

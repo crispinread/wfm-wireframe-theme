@@ -1,0 +1,46 @@
+/* Header
+----------*/
+
+div#header {
+  position:relative;
+  margin:0;
+  padding:3.0303% 0;
+	border-bottom:2px solid #eee;
+}
+
+a#logo {
+  float:left;
+  margin:0 3.0303%;
+  width:21.2121%;
+  min-width:120px;
+}
+a#logo img {
+  float:left;
+	border:1px solid #d4d4d4;
+}
+
+div#header div.block-menu-block {
+  clear:right;
+  float:right;
+  margin:0;
+  padding:24px 3.0303% 0 3.0303%;
+}
+div#header div.block-menu-block ul {
+  margin:0;
+  padding:0;
+  line-height:20px;
+  font-size:16px;
+}
+div#header div.block-menu-block ul li {
+  float:left;
+  margin:0 5px 0 0;
+  padding:0;
+  list-style:none;
+}
+div#header div.block-menu-block ul li.last {
+  margin-right:0;
+}
+div#header div.block-menu-block ul li a {
+  float:left;
+  padding:5px;
+}
