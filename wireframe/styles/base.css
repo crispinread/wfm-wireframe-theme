@@ -178,7 +178,7 @@ form {
   margin:0;
 }
 input,select,textarea {
-  font:normal 1em Arial,Helvetica,sans-serif;
+  font:normal 16px Arial,Helvetica,sans-serif;
 }
 input[type="email"],
 input[type="text"],

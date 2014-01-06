@@ -56,7 +56,11 @@ div#header form {
   margin:0;
   padding:24px 3.0303% 0 3.0303%;  
 }
-div#header form div.views-exposed-widget {
-  padding:0;
+div#header form div.form-actions,
+div#header form div.form-item {
+  margin:0;
   float:left;
+}
+div#header form div.form-item input[type="text"] {
+  padding:2px;
 }
