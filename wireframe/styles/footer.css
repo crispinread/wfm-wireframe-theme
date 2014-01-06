@@ -7,28 +7,33 @@ div#footer {
 	border-top:2px solid #eee;
 }
 
-div#footer div.block-menu-block {
+div#footer div.block-menu-block,
+div#footer div.block-menu {
   clear:left;
   float:left;
   margin:0 3.0303%;
   padding:0;
 }
-div#footer div.block-menu-block ul {
+div#footer div.block-menu-block ul,
+div#footer div.block-menu ul {
   margin:0;
   padding:0;
   line-height:20px;
   font-size:16px;
 }
-div#footer div.block-menu-block ul li {
+div#footer div.block-menu-block ul li,
+div#footer div.block-menu ul li {
   float:left;
   margin:0 5px 0 0;
   padding:0;
   list-style:none;
 }
-div#footer div.block-menu-block ul li.last {
+div#footer div.block-menu-block ul li.last,
+div#footer div.block-menu ul li.last {
   margin-right:0;
 }
-div#footer div.block-menu-block ul li a {
+div#footer div.block-menu-block ul li a,
+div#footer div.block-menu ul li a {
   float:left;
   padding:5px;
 }

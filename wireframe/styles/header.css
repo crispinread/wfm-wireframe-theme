@@ -52,5 +52,7 @@ div#header nav ul li a {
 
 div#header form {
   clear:right;
-  float:right;  
+  float:right;
+  margin:0;
+  padding:24px 3.0303% 0 3.0303%;  
 }
