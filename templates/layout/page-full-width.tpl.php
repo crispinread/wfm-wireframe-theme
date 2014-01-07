@@ -2,8 +2,10 @@
 	<div id="page">
 
 		<div id="header" class="section"><div class="holder clearfix">
-			<?php include('branding.inc'); ?>
-			<?php print render($page['header']); ?>
+			<?php if ($logo): ?>
+				<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
+			<?php endif; ?>
+	<?php print render($page['header']); ?>
 		</div></div><!-- /#header -->
 
 		<div id="main" class="full"><div class="holder">

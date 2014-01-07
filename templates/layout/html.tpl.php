@@ -3,12 +3,6 @@
 
 <head profile="<?php print $grddl_profile; ?>">
 
-<!-- delete this script for live -->
-<script type="text/javascript"> 
-var disqus_developer = 1; // developer mode is on
-</script>
-<!-- end delete -->
-
   <?php print $head; ?>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title><?php print $head_title; ?></title>
