@@ -49,6 +49,39 @@ div#header nav ul li a {
   float:left;
   padding:5px;
 }
+div#header div.block-menu-block ul li a.active,
+div#header nav ul li a.active,
+div#header div.block-menu-block ul li a.active-trail,
+div#header nav ul li a.active-trail {
+  color:#000;
+}
+
+/* Drop down menu */
+
+div#header div.block-menu-block ul li.expanded ul.menu {
+  display:none;
+  position:absolute;
+  top:55px;
+  width:210px;
+  padding:0;
+  z-index:10;
+  background:#f4f4f4;
+}
+div#header div.block-menu-block ul li.expanded:hover ul.menu {
+  display:block;
+}
+div#header div.block-menu-block ul li.expanded ul.menu li {
+  display:block;
+  float:none;
+}
+div#header div.block-menu-block ul li.expanded ul.menu li a {
+  display:block;
+  padding:10px;
+}
+div#header div.block-menu-block ul li.expanded ul.menu li a:hover {
+}
+
+/* END Drop down menu */
 
 div#header form {
   clear:right;
@@ -60,6 +93,12 @@ div#header form div.form-actions,
 div#header form div.form-item {
   margin:0;
   float:left;
+}
+.views-exposed-form .views-exposed-widget {
+  padding:0;
+}
+div#header form input {
+  margin:0;
 }
 div#header form div.form-item input[type="text"] {
   padding:2px;

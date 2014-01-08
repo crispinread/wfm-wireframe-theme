@@ -459,9 +459,6 @@ ul.pager li.pager-current {
   text-transform:capitalize;
   color:#fff;
   background:#52a5dd;
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  border-radius:5px;
 }
 ul.pager li.pager-current {
   font-weight:normal;

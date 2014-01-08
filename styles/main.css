@@ -11,10 +11,22 @@ body.page-civicrm-event div.crm-container {
 	margin:0 0 30px 0;
 	padding:30px;
 	background:#f4f4f4;
-	border: 1px solid #e4e4e4;
+	border:1px solid #e4e4e4;
 }
 div#principle div.block-menu-block {
 	padding:20px 30px;
+}
+div#principle div#block-system-main {
+	background:transparent;
+	padding:0 0 30px 0;
+	border:0;
+}
+
+body.not-front div#block-system-main div.views-row {
+  margin:0 0 30px 0;
+  padding:30px;
+  background:#f4f4f4;
+  border:1px solid #e4e4e4;
 }
 
 /* Banner */
@@ -27,7 +39,7 @@ div#banner {
 div#banner div.menu-block-wrapper {
   border-bottom:1px solid #ccc;
   width:100%;
-	float:left;
+  float:left;
   padding:0 0 1% 0;
 }
 div#banner ul.menu {
@@ -114,7 +126,6 @@ div#menu ul.menu li.active-trail ul li.active-trail ul li a {
 div#menu ul.menu li.active-trail ul li.active-trail ul li.active a {
 }
 
-
 /* Content */
 
 div#content {
@@ -149,7 +160,6 @@ ul.links {
   font-size:14px;
 }
 
-
 /* Aside */
 
 div#aside {
@@ -166,7 +176,6 @@ div#aside div.view-signposts div.views-row {
 div#aside div.view-signposts div.views-row-last {
   margin-bottom:0;
 }
-
 
 /* Trailer */
 
@@ -351,6 +360,28 @@ div.categories div.views-row span.text {
   margin:0;
 }
 
+body.not-front div#block-system-main div.portals div.views-row {
+  margin:0 3.0303%;	
+}
+div.portals div.views-row {
+  width:24.6488%;
+  float:left;
+}
+div.portals div.views-row-first,
+div.portals div.views-row-last {
+  margin:0!important;
+}
+div.portals div.views-row h2 {
+  font-size:18px;
+  line-height:24px;
+}
+div.portals div.views-row h2,
+div.portals div.views-row span.text {
+  display:block;
+  padding:0 0 10px 0;
+  margin:0;
+}
+
 div#trailer div#block-views-themes-block div.view-themes h3 {
   clear:both;  
 }
@@ -371,8 +402,18 @@ div#block-views-sub_catergories-block:after {
 }
 div#block-views-sub_catergories-block div.views-row {
   float:left;
-  width:30%;
+  width:27.813%;
   padding:10px;
-  margin:0;
+  margin:0 0 3.0303% 0;
+  background:#ccc;
   border:1px solid #e4e4e4;
+}
+
+div#block-views-sub_catergories-block div.views-row-2,
+div#block-views-sub_catergories-block div.views-row-4,
+div#block-views-sub_catergories-block div.views-row-6,
+div#block-views-sub_catergories-block div.views-row-8,
+div#block-views-sub_catergories-block div.views-row-10,
+div#block-views-sub_catergories-block div.views-row-12 {
+  margin:0 3.0303% 3.0303% 3.0303%;
 }
