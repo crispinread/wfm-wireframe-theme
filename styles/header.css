@@ -49,6 +49,12 @@ div#header nav ul li a {
   float:left;
   padding:5px;
 }
+div#header div.block-menu-block ul li a.active,
+div#header nav ul li a.active,
+div#header div.block-menu-block ul li a.active-trail,
+div#header nav ul li a.active-trail {
+  color:#000;
+}
 
 /* Drop down menu */
 
