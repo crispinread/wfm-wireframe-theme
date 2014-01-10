@@ -2,16 +2,17 @@
 ----------*/
 
 div#footer {
+	clear: both;
+	overflow: hidden;
   margin:0;
-  padding:3.0303% 0 6.0606% 0;
 	border-top:2px solid #eee;
+	padding:30px;
 }
 
 div#footer div.block-menu-block,
 div#footer div.block-menu {
   clear:left;
   float:left;
-  margin:0 3.0303%;
   padding:0;
 }
 div#footer div.block-menu-block ul,
@@ -36,4 +37,7 @@ div#footer div.block-menu-block ul li a,
 div#footer div.block-menu ul li a {
   float:left;
   padding:5px;
+}
+div#footer div.block-menu + div.block {
+	float: right;
 }
