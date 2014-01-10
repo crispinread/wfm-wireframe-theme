@@ -102,21 +102,12 @@ address {
 blockquote {
   margin:18px 5% 18px 10%;
   line-height:28px;
-  font-size:24px;
-  font-style:italic;
-  color:#52a5dd;
-}
-blockquote p {
-  line-height:inherit;
-  font-size:inherit;
 }
 blockquote cite {
   display:block;
-  padding:6px 0 0 0;
   line-height:18px;
-  font-size:14px;
+  font-size:12px;
   font-style:normal;
-  color:#999;
 }
 
 hr {
