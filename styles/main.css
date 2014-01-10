@@ -209,6 +209,18 @@ div#trailer div#block-views-signposts-block_1 div.view-signposts div.views-row {
   margin:0 0 0 3.0303%;
 }
 
+/* Signposts */
+
+div.view-signposts span.image {
+	margin: 5% 0;
+}
+
+div.view-signposts span.image img {
+	display: block;
+	height: auto;
+	margin: auto;
+}
+
 /* Masonry Grid Layout */ 
 
 .masonry-item  {
