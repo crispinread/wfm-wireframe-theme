@@ -21,6 +21,7 @@ a#logo img {
 
 div#header div.block-menu-block,
 div#header nav {
+  position:relative;
   clear:right;
   float:right;
   margin:0;
